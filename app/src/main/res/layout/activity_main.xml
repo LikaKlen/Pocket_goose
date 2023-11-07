@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/main_menu__1_"
+    tools:context=".MainActivity"
+    >
+
 
     <Button
         android:id="@+id/button"
@@ -13,7 +16,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_marginBottom="290dp"
-        android:text="Старт" />
+        android:fontFamily="serif"
+        android:text="Старт"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:id="@+id/button1"
@@ -42,8 +47,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="23dp"
-        android:src="@drawable/exit_button"
-        android:background="@null"/>
+        android:background="@null"
+        android:src="@drawable/exit_button" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -65,11 +70,14 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="399dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Main menu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
+
 
 </RelativeLayout>

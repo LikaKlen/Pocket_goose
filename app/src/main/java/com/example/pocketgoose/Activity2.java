@@ -18,6 +18,7 @@ public class Activity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 openMainActivity();
+                finish();
             }
         });
     }

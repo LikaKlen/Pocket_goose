@@ -11,13 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PocketGoose"
-        tools:targetApi="31">
+
+        tools:targetApi="31"
+        >
+        <activity
+            android:name=".StartActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Transparent"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Settings"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".Activity2"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Pocket goose</string>
+    <string name="Play">Игра началась</string>
+    <string name="todo">TODO</string>
 </resources>
