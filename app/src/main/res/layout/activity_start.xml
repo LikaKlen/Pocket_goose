@@ -7,17 +7,6 @@
     tools:context=".StartActivity">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="311dp"
-        android:layout_marginEnd="146dp"
-        android:fontFamily="@font/marmelad"
-        android:text="@string/Play" />
-
     <ImageButton
         android:id="@+id/startButton"
         android:layout_width="49dp"

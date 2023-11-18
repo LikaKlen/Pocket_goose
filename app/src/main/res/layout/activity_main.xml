@@ -16,9 +16,12 @@
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_marginBottom="290dp"
+        android:backgroundTint="#CDE87F"
         android:fontFamily="serif"
         android:text="Старт"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        app:strokeColor="@color/colorStroke" />
 
     <Button
         android:id="@+id/button1"
@@ -27,7 +30,10 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="189dp"
-        android:text="Скины" />
+        android:backgroundTint="@color/Color_Button"
+        android:text="Скины"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/button2"
@@ -36,7 +42,10 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="86dp"
-        android:text="Настройки" />
+        android:backgroundTint="@color/Color_Button"
+        android:text="Настройки"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black" />
 
 
     <ImageButton
@@ -64,20 +73,14 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="357dp" />
 
-    <TextView
+    <Button
+        android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="399dp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:text="Main menu"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible" />
+        android:layout_marginBottom="19dp"
+        android:text="Button" />
 
 
 </RelativeLayout>
