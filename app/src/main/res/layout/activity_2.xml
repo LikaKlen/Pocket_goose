@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/skinfon"
+    android:visibility="visible"
     tools:context=".Activity2">
 
     <ImageButton
@@ -13,143 +14,171 @@
         android:layout_height="48dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_gravity="bottom"
         android:layout_marginStart="20dp"
         android:layout_marginTop="23dp"
         android:background="@null"
-        android:src="@drawable/resource__"
-        android:layout_gravity="bottom"
-        />
+        android:src="@drawable/resource__" />
 
     <TextView
         android:layout_width="114dp"
         android:layout_height="46dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
         android:layout_marginEnd="135dp"
         android:layout_marginBottom="590dp"
         android:text="Скины"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
         tools:visibility="visible" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="139dp"
-        android:layout_height="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="285dp"
-        tools:srcCompat="@drawable/goosewithhat"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
 
-        />
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="210dp"
+        android:src="@drawable/goosewithhat" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="165dp"
-        android:layout_height="136dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="66dp"
-        tools:srcCompat="@drawable/questions"
-        android:layout_gravity="bottom"/>
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="166dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="245dp"
-        android:backgroundTint="@color/Color_Button"
-        android:text="Надеть"
-        android:textColor="@color/black" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="169dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="71dp"
-        android:backgroundTint="@color/Color_Button"
-        android:text="Надеть"
-        android:textColor="@color/black" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="168dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="228dp"
-        android:layout_marginTop="179dp"
-        android:backgroundTint="@color/Color_Button"
-        android:text="Надеть"
-        android:textColor="@color/black"
-        android:textColorHighlight="@color/Color_Button"
-        android:textColorLink="@color/Color_Button"
-        android:textCursorDrawable="@color/Color_Button"
-
-        />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="491dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="59dp"
+        android:src="@drawable/questions" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="202dp"
-        android:layout_height="161dp"
+        android:layout_width="359dp"
+        android:layout_height="169dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="101dp"
-        tools:srcCompat="@drawable/group_2"
-
-        />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="21dp"
-        android:text="Обычный гусь"
-        android:textSize="24sp" />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="378dp"
+        android:src="@drawable/group_2" />
 
-    <TextView
-        android:id="@+id/textView3"
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="658dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="307dp"
-        android:layout_marginEnd="33dp"
-        android:text="Гусь со шляпой"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="143dp"
-        android:text="+18 Гусь"
-        android:textSize="24sp" />
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="228dp"
+            android:backgroundTint="@color/Color_Button"
+            android:text="Надеть"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="55dp"
+            android:backgroundTint="@color/Color_Button"
+            android:text="Надеть"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="307dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="321dp"
+            android:text="Гусь со шляпой"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="137dp"
+            android:text="+18 Гусь"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="179dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="440dp"
+            android:backgroundTint="@color/Color_Button"
+            android:text="Надеть"
+
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/Color_Button"
+            android:textColorLink="@color/Color_Button"
+            android:textCursorDrawable="@color/Color_Button" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="488dp"
+            android:text="Обычный гусь"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
 
 
 </RelativeLayout>
